@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+}
+.header-section{
+    display: flex;
+}
+.header{
+    width: 40%;
+    padding-left: 5%;
+}
+.heading{
+    color: #575757;
+    font-size: 50px;
+    padding-top: 30%;
+    
+}
+.heading span{
+    color: orange;
+}
+.tag-line{
+    color: #838383;
+    padding-bottom: 30px;
+}
+.btn{
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    padding: 12px 22px;
+
+}
+.about-section{
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.img2{
+    width: 50%;
+    padding-left: 10%;
+}
+.img{
+    height: 400px;
+    width: 250px;
+}
+.abt-head{
+    padding-top: 50px;
+    color: #575757;
+    font-size: 30px;
+}
+.abt-tag{
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 30px;
+    color: #575757;
+}
+.rcp-head{
+    padding-top: 50px;
+    text-align: center;
+    color: #838383;
+    font-size: 30px;
+}
+.rcp-tag{
+    font-size: 17px;
+    color: #575757;
+    line-height: 25px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.rcp-container{
+    display: flex;
+}
+.rcp-img{
+    height: 200px;
+    width: 300px;
+}
+.main-rcp{
+    width: 25%;
+    padding: 2.5%;
+    box-shadow: 5px 5px 20px 5px rgba(0,0,0,0.41);
+    border-radius: 10px;
+    margin: 2.5%;
+}
+.rcp-title{
+    font-size: 25px;
+}
+.photo-tag{
+    font-size: 17px;
+    color: #575757;
+    line-height: 25px;
+    padding-bottom: 30px;
+    text-align: left;
+}
